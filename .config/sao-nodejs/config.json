@@ -1,0 +1,18 @@
+{
+	"generators": {
+		"e77e80fe": {
+			"type": "local",
+			"path": "/usr/local/share/.config/yarn/global/node_modules/create-nuxt-app/lib",
+			"hash": "e77e80fe"
+		},
+		"75d0108a": {
+			"type": "local",
+			"path": "/usr/local/lib/node_modules/create-nuxt-app/lib",
+			"hash": "75d0108a"
+		}
+	},
+	"answers": {
+		"e77e80fe__npm__": {},
+		"75d0108a__npm__": {}
+	}
+}
