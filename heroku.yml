@@ -1,0 +1,8 @@
+build:
+    docker:
+      web: Dockerfile
+    config:
+      WORKDIR: app
+      API_URL: "https://<前回作成したRailsアプリの名前>.herokuapp.com"
+  run:
+    web: yarn run start
