@@ -41,11 +41,24 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy' 
   ],
 
+  // proxy: {
+  //   '/api': {
+  //     target: 'http://localhost:3000',
+  //     pathRewrite: {
+  //       '^/api': '/api'
+  //     }
+  //   },
+  // },
+  
+
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
+  axios: {
+    // proxy: true
+  },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
