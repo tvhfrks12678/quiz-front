@@ -42,7 +42,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/proxy' 
+    '@nuxtjs/proxy'
+
   ],
 
   // proxy: {
@@ -78,6 +79,8 @@ export default {
       }
     }
   },
+
+  telemetry: false,
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
